@@ -645,7 +645,7 @@
                 weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' 
             });
             
-            let message = `💕 *Our Date Plan* 💕\n\n`;
+            let message = ` *THE PLAN* \n\n`;
             message += `📅 *When:* ${formattedDate}\n\n`;
             
             for (const [cat, val] of Object.entries(selections)) {
@@ -663,7 +663,7 @@
                     message += `👗 *Outfit:* ${val}\n\n`;
                 }
             }
-            message += `\nCan't wait! 😊💖`;
+            message += `\nLESGOOO!! `;
             
             const whatsappURL = `https://wa.me/${phoneInput}?text=${encodeURIComponent(message)}`;
             window.open(whatsappURL, '_blank');
